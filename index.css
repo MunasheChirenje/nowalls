@@ -1,0 +1,1003 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "font";
+  src: url("/BalooBhaijaan-Regular.ttf");
+}
+@font-face {
+  font-family: "satcha";
+  src: url("/Baloo2-Regular.ttf");
+}
+h2 {
+  font-size: 40px;
+  font-family: "font", BalooBhaijaan;
+}
+
+p {
+  font-family: "satcha", Baloo2;
+  font-size: 16px;
+}
+
+button {
+  font-family: "font", BalooBhaijaan;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navigation {
+  font-family: "font", Baloo Bhaijaan;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navigation .navigation2 {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+  justify-content: space-between;
+  justify-content: space-evenly;
+}
+.navigation .navigation2 a {
+  text-decoration: none;
+  font-size: 38px;
+  margin-left: -25px;
+  color: rgb(0, 62, 84);
+}
+.navigation .con {
+  color: rgb(215, 123, 65);
+}
+.navigation .ervices {
+  margin-right: 100px;
+}
+.navigation .Submit {
+  margin-right: 100px;
+}
+.navigation .logo1 {
+  display: flex;
+  justify-content: start;
+}
+
+.banner {
+  font-family: "font", Baloo Bhaijaan;
+}
+.banner h1 {
+  font-size: 40px;
+  color: rgb(0, 62, 84);
+}
+.banner h1 {
+  font-size: 73px;
+  font-weight: 900;
+}
+.banner img {
+  width: 100%;
+}
+.banner .rect6 {
+  margin-top: 134px;
+  margin-left: -20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+.banner .rect3 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 7px;
+  width: 100%;
+}
+.banner .rect4 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: -20px;
+  margin-top: 15px;
+  width: 100%;
+}
+.banner .grp {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: -2px;
+  width: 100%;
+  margin-left: -10px;
+}
+.banner h2 {
+  color: rgb(0, 62, 84);
+  font-family: "font", Baloo Bhaijaan;
+}
+.banner .nowalls {
+  color: rgb(215, 123, 65);
+  font-size: 50px;
+}
+.banner .main {
+  display: flex;
+}
+.banner .logo1 {
+  display: flex;
+  margin-left: 30px;
+}
+.banner .pok {
+  margin-bottom: 15px;
+}
+.banner .line1 {
+  border: 1px solid rgb(215, 123, 65);
+  height: 1px;
+  width: 45px;
+  margin-top: 10px;
+}
+.banner .ptag {
+  margin-left: 50px;
+  font-weight: bold;
+}
+.banner .flex {
+  display: flex;
+  flex-direction: row;
+}
+.banner .ptag {
+  margin: 6px;
+  margin-top: 2px;
+}
+.banner .opa {
+  opacity: 35%;
+  margin-top: -3px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.banner .your {
+  margin-left: 56px;
+  margin-right: 56px;
+}
+.banner .single {
+  height: 6vh;
+  margin-top: -7px;
+  width: 100%;
+  margin-left: 25px;
+}
+.banner .single3 {
+  height: 6vh;
+  margin-top: -5px;
+  width: 104%;
+  margin-left: 0px;
+}
+.banner .twin {
+  height: 6vh;
+  margin-top: -5px;
+  width: 340px;
+  margin-left: -4px;
+}
+.banner .single1 {
+  height: 6vh;
+  margin-top: -7px;
+  width: 93%;
+  margin-left: 8px;
+}
+
+.bout {
+  padding-top: 90px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-self: auto;
+}
+.bout .look {
+  display: flex;
+}
+.bout p {
+  width: 649px;
+}
+.bout h2 {
+  color: rgb(215, 123, 65);
+  margin-bottom: 20px;
+  margin-right: 37px;
+}
+.bout img {
+  margin-left: 150px;
+  width: 85%;
+}
+.bout .hd {
+  padding-top: 90px;
+  margin-left: -9px;
+}
+.bout .about {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.services {
+  background-color: rgb(0, 62, 84);
+  padding-bottom: 60px;
+}
+.services .service {
+  margin-left: 40px;
+}
+.services h2 {
+  font-family: "font", BalooBhaijaan;
+  color: white;
+  margin-left: 30px;
+  margin-top: 15px;
+  position: absolute;
+}
+.services .card {
+  background-color: rgb(8, 77, 102);
+  color: white;
+  width: 25rem;
+  margin-top: 85px;
+  border-color: rgb(8, 77, 102);
+}
+.services a {
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: 900;
+}
+.services h5 {
+  color: rgb(215, 123, 65);
+  font-family: "font", BalooBhaijaan;
+}
+.services .line {
+  width: 355px;
+  border: 1px solid rgb(215, 123, 65);
+}
+.services .objects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carousel-indicators button {
+  height: 15px;
+  margin-bottom: -120px;
+  border-radius: 50%;
+}
+
+.card-text {
+  font-family: "satcha", Baloo2;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 90px;
+}
+.subscribe .button {
+  background-color: #0B394D;
+  padding: 15px;
+  width: 260px;
+  margin-top: 40px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: "font", BalooBhaijaan;
+}
+.subscribe h2 {
+  color: #CD7E50;
+  margin-bottom: 40px;
+}
+.subscribe img {
+  margin-left: 40px;
+  width: 40%;
+  height: 60vh;
+}
+
+.contact {
+  background-color: rgb(243, 244, 246);
+  border-style: none;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.contact img {
+  height: 100vh;
+  width: 70%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.contact .forms {
+  margin-left: 150px;
+  width: 25%;
+  border-style: none;
+  background-color: rgb(243, 244, 246);
+}
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+.contact .button {
+  background-color: #0A3140;
+  padding: 15px;
+  width: 541px;
+  margin-left: 41px;
+  margin-top: 5px;
+}
+.contact h2 {
+  color: #CD7E50;
+  padding-top: 70px;
+  margin-right: 90px;
+}
+.contact .message-box {
+  margin-top: 14px;
+  border-style: none;
+  color: rgb(128, 151, 160);
+  padding-top: 10px;
+  padding-left: 13px;
+  margin-left: -108px;
+  width: 541px;
+}
+.contact p {
+  margin-right: 70px;
+}
+.contact .former {
+  border-style: none;
+  padding: 15px;
+  color: rgb(128, 151, 160);
+  width: 541px;
+  margin-left: -108px;
+}
+.contact .get {
+  margin-left: 60px;
+}
+.contact .rect76 {
+  margin-top: 70px;
+}
+
+.Nowalls {
+  background-image: url("/images/Group 9.png");
+  background-size: cover;
+  height: 50vh;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 80px;
+}
+.Nowalls .image4 {
+  height: 70vh;
+  background-repeat: no-repeat;
+}
+.Nowalls .phonenumber {
+  display: flex;
+  margin-left: 150px;
+}
+.Nowalls .samora {
+  display: flex;
+  margin-left: 30px;
+}
+.Nowalls h2 {
+  font-family: "font", BalooBhaijaan;
+  margin-left: 40px;
+  padding-top: 90px;
+}
+.Nowalls .heritage {
+  font-family: "font", BalooBhaijaan;
+  margin-left: 25px;
+  margin-top: -3px;
+}
+.Nowalls .paaaa {
+  margin-left: 20px;
+  font-family: "font", BalooBhaijaan;
+  margin-top: -6px;
+}
+.Nowalls .ppp {
+  margin-left: 20px;
+  display: flex;
+  padding-top: 10px;
+}
+
+.loggo {
+  font-family: "font", BalooBhaijaan;
+}
+.loggo .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  padding-top: 15px;
+}
+
+@media (max-width: 576px) {
+  .dropdown {
+    display: flex;
+  }
+  .navigation img {
+    display: none;
+  }
+  .navigation .navigation2 {
+    display: none;
+  }
+  .banner {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .banner .your {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .banner h1 {
+    font-size: 23px;
+  }
+  .banner h2 {
+    font-size: 15px;
+  }
+  .banner .nowalls {
+    font-size: 22px;
+  }
+  .banner .ptag {
+    font-size: 10px;
+  }
+  .banner .grp {
+    display: none;
+  }
+  .banner .rect6 {
+    display: none;
+  }
+  .banner .rect4 {
+    display: none;
+  }
+  .banner .opa {
+    display: none;
+  }
+  .header img {
+    width: 40%;
+  }
+  .bout {
+    margin-right: 52px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .bout h2 {
+    font-size: 20px;
+    margin-left: -26px;
+  }
+  .bout p {
+    font-size: 10px;
+    margin-left: -26px;
+    width: 331px;
+  }
+  .bout img {
+    display: none;
+  }
+  .bout .hd {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 77px;
+  }
+  .services .service {
+    margin-left: 2px;
+  }
+  .services h2 {
+    font-size: 20px;
+    margin-left: 26px;
+  }
+  .services .objects {
+    display: flex;
+    flex-direction: column;
+  }
+  .services .card-img-top {
+    width: 95%;
+  }
+  .services h5 {
+    font-size: 15px;
+  }
+  .services .card-text {
+    width: 200px;
+    font-size: 12px;
+  }
+  .services .card {
+    margin-top: -2px;
+    width: 20rem;
+    margin-left: 25px;
+  }
+  .services .line {
+    width: 299px;
+  }
+  .services .carousel-indicators {
+    display: none;
+  }
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe img {
+    width: 170%;
+    height: 5q q1 0vh;
+    margin-top: -3px;
+    margin-left: 10px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .subscribe h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-left: -62px;
+  }
+  .subscribe .button {
+    padding: 15px;
+    font-size: 14px;
+    margin-left: -62px;
+  }
+  .contact img {
+    display: none;
+  }
+  .contact h2 {
+    font-size: 25px;
+    margin-right: 48px;
+  }
+  .contact p {
+    font-size: 10px;
+    margin-right: 53px;
+  }
+  .contact .forms {
+    margin-left: -2px;
+    width: 85%;
+  }
+  .contact .former {
+    width: 100%;
+    margin-left: 35px;
+  }
+  .contact .button {
+    margin-left: 32px;
+    width: 86%;
+  }
+  .contact .message-box {
+    width: 100%;
+    margin-left: 33px;
+  }
+  .contact .rect76 {
+    display: none;
+  }
+  .Nowalls {
+    height: 40vh;
+  }
+  .Nowalls img {
+    background-size: cover;
+    background-position: right;
+  }
+  .Nowalls .samora {
+    margin-left: 8px;
+  }
+  .Nowalls h2 {
+    margin-left: 32px;
+    font-size: 16px;
+  }
+  .Nowalls .phonenumber {
+    margin-left: 21px;
+  }
+  .Nowalls p {
+    font-size: 14px;
+  }
+  .loggo image {
+    height: 26vh;
+  }
+  .loggo img {
+    width: 40%;
+    padding-top: 1px;
+    height: 14vh;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .navigation img {
+    display: none;
+  }
+  .navigation .navigation2 {
+    display: none;
+  }
+  .banner h1 {
+    font-size: 50px;
+  }
+  .banner .col-md-3 {
+    width: 100%;
+  }
+  .banner h2 {
+    font-size: 30px;
+  }
+  .banner .nowalls {
+    font-size: 40px;
+  }
+  .banner .grp {
+    display: none;
+  }
+  .banner .rect6 {
+    display: none;
+  }
+  .banner .rect4 {
+    display: none;
+  }
+  .banner .opa {
+    display: none;
+  }
+  .bout {
+    padding-top: -9px;
+  }
+  .bout h2 {
+    font-size: 30px;
+    margin-top: -114px;
+  }
+  .bout img {
+    display: none;
+  }
+  .bout .hd {
+    margin-left: 8px;
+    padding-top: -9px;
+  }
+  .services .carousel-indicators {
+    display: none;
+  }
+  .services .line {
+    width: 600px;
+  }
+  .services .card-text {
+    font-size: 22px;
+  }
+  .services .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 43rem;
+  }
+  .services .objects {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 42rem;
+  }
+  .services .line {
+    font-size: 600px;
+  }
+  .services img {
+    width: 100%;
+  }
+  .services h5 {
+    font-size: 2.25rem;
+  }
+  .subscribe img {
+    height: 45vh;
+    width: 57%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .subscribe h2 {
+    font-size: 27px;
+  }
+  .subscribe .button {
+    font-size: 15px;
+  }
+  .contact img {
+    display: none;
+  }
+  .contact h2 {
+    margin-right: 100px;
+    font-size: 30px;
+  }
+  .contact p {
+    font-size: 20px;
+    margin-right: 60px;
+  }
+  .contact .forms {
+    margin-right: 15px;
+    margin-left: 56px;
+    margin-top: 21px;
+    width: 87%;
+  }
+  .contact .message-box {
+    width: 100%;
+    margin-left: -9px;
+  }
+  .contact .former {
+    width: 100%;
+    margin-left: -9px;
+    margin-top: 21px;
+  }
+  .contact .button {
+    margin-right: 15px;
+    margin-left: 56px;
+    width: 87%;
+    padding: 27px;
+  }
+  .contact .col-md-6 {
+    width: 100%;
+  }
+  .Nowalls {
+    height: 39vh;
+  }
+  .Nowalls .samora {
+    margin-left: 43px;
+    margin-top: 60px;
+  }
+  .Nowalls .heritage {
+    width: 176px;
+    margin-top: -6px;
+  }
+  .Nowalls .phonenumber {
+    margin-top: 60px;
+  }
+  .Nowalls p {
+    font-size: 20px;
+  }
+  .Nowalls h2 {
+    padding-top: 100px;
+  }
+  .Nowalls .ppp {
+    margin-left: 5px;
+  }
+  .Nowalls .paaaa {
+    width: 166px;
+    margin-top: -5px;
+  }
+  .loggo img {
+    margin-bottom: 21px;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .header {
+    display: none;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .navigation .navigation2 a {
+    margin-left: -2px;
+    font-size: 29px;
+  }
+  .navigation .navigation2 .Submit {
+    margin-right: 43px;
+  }
+  .navigation .navigation2 .ervices {
+    margin-right: 32px;
+  }
+  .banner .rect6 {
+    margin-top: 106px;
+    margin-left: 2px;
+  }
+  .banner .grp {
+    margin-top: -58px;
+    margin-left: 2px;
+  }
+  .banner .rect4 {
+    margin-top: -30px;
+    margin-left: 3px;
+  }
+  .banner .single {
+    height: 4vh;
+    margin-top: -4px;
+    width: 100%;
+    margin-left: 36px;
+  }
+  .banner .single1 {
+    height: 4vh;
+    margin-top: -1px;
+    width: 98%;
+    margin-left: 24px;
+  }
+  .banner .single3 {
+    height: 4vh;
+    margin-top: -5px;
+    width: 104%;
+    margin-left: 0px;
+  }
+  .banner .twin {
+    height: 4vh;
+    margin-top: -3px;
+    width: 340px;
+    margin-left: -4px;
+  }
+  .banner .opa {
+    margin-top: -55px;
+  }
+  .bout .hd {
+    margin-left: 11px;
+  }
+  .bout h2 {
+    margin-top: -62px;
+  }
+  .bout p {
+    width: 366px;
+  }
+  .bout img {
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .services .line {
+    width: 232px;
+  }
+  .services .card {
+    margin-left: 8px;
+    width: 17rem;
+  }
+  .contact img {
+    height: 50vh;
+  }
+  .contact .rect76 {
+    height: 50vh;
+  }
+  .contact .former {
+    width: 438px;
+  }
+  .contact h2 {
+    margin-right: 45px;
+  }
+  .contact p {
+    margin-right: 45px;
+  }
+  .contact .message-box {
+    width: 440px;
+  }
+  .contact .button {
+    margin-left: 12px;
+    width: 438px;
+  }
+  .Nowalls {
+    height: 25vh;
+  }
+  .Nowalls .phonenumber {
+    margin-left: 127px;
+  }
+  .loggo {
+    padding: 0px;
+  }
+  .loggo .image {
+    height: 14vh;
+  }
+}
+/* Theming */
+/* import font */
+:root {
+  --white: #f9f9f9;
+  --black: #36383F;
+  --gray: #85888C;
+} /* variables*/
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+  font-family: "font", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+/* Logo */
+.logo {
+  display: inline-block;
+  color: var(--white);
+  font-size: 60px;
+  margin-left: 10px;
+}
+
+/* Nav menu */
+.nav {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: var(--black);
+  overflow: hidden;
+}
+
+.menu a {
+  display: block;
+  padding: 30px;
+  color: var(--white);
+}
+
+.menu a:hover {
+  background-color: var(--gray);
+}
+
+.nav {
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+}
+
+/* Menu Icon */
+.hamb {
+  cursor: pointer;
+  float: right;
+  padding: 14px 6px;
+  background-color: #000;
+  margin-top: 22px;
+  margin-right: 19px;
+} /* Style label tag */
+.hamb-line {
+  background: var(--white);
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 24px;
+} /* Style span tag */
+.hamb-line::before,
+.hamb-line::after {
+  background: var(--white);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.hamb-line::before {
+  top: 5px;
+}
+
+.hamb-line::after {
+  top: -5px;
+}
+
+.side-menu {
+  display: none;
+} /* Hide checkbox */
+/* Toggle menu icon */
+.side-menu:checked ~ nav {
+  max-height: 100%;
+}
+
+.side-menu:checked ~ .hamb .hamb-line {
+  background: transparent;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .banner .rect3 {
+    margin-top: 8px;
+  }
+  .banner .rect4 {
+    margin-top: -30px;
+  }
+  .banner .rect6 {
+    margin-top: 106px;
+    margin-left: 2px;
+  }
+  .banner .grp {
+    margin-top: -58px;
+  }
+  .contact .forms {
+    margin-left: 116px;
+  }
+  .contact .rect76 {
+    height: 30vh;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .contact .message {
+    width: 258%;
+  }
+  .subscribe .hump {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 30vh;
+    width: 45%;
+  }
+  .Nowalls img {
+    height: 23vh;
+  }
+}/*# sourceMappingURL=index.css.map */
