@@ -346,7 +346,7 @@ body {
 }
 
 .Nowalls {
-  background-image: url("/images/Group 9.png");
+  background-image: url("img/Group 9.png");
   background-size: cover;
   height: 50vh;
   background-repeat: no-repeat;
