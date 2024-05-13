@@ -701,11 +701,7 @@ font-size: 15px;
       }
 
       img{
-        // margin-bottom: 25px;
-        // width: 70%;
-        // margin-right: 127px;
-        // margin-left: 52px;
-        // margin-top: -2px;
+        
 
         display: none;
       }
@@ -714,7 +710,7 @@ font-size: 15px;
         padding-top: 10px;
         padding-bottom: 10px;
         margin-left: 77px;
-        // margin-right: 12px;
+       
 
 
       }
@@ -724,6 +720,9 @@ font-size: 15px;
 
     .services{
 
+
+        padding-bottom: 0px;
+
         .service{
             margin-left: 2px;
         }
@@ -731,6 +730,7 @@ font-size: 15px;
         h2{
             font-size: 20px;
             margin-left: 26px;
+            margin-top: -18px;
     }
 .objects{
     display: flex;
@@ -744,7 +744,7 @@ font-size: 15px;
     }
 
     h5{
-        // margin-left: 157px;
+        
         font-size: 15px;
     }
 
@@ -758,7 +758,7 @@ font-size: 15px;
 
     .card{
 
-        margin-top: -2px;
+        margin-top: -28px;
         width: 20rem;
         margin-left: 25px;
     }
@@ -909,45 +909,7 @@ p{
         
    
 
-//     .navigation{
 
-//         img{
-//             width: 246px;
-//         }
-
-//         a{
-
-//             margin-left: -59px;
-//         }
-
-        
-//         .navigation2{
-//            font-size: 21px;
-//            margin-top: 42px;
-//            display: flex;
-//            margin-right: 102px;
-//            margin-left: 35px;
-
-//            .ervices{
-// font-size: 21px;
-// // margin-right: 30px;
-// // margin-top: 10px;
-//            }
-
-//            .Submit{
-//             // margin-right: 30px;
-// font-size: 21px;
-// // margin-top: 10px;
-//            }
-// .con{
-//     margin-top: 1px;
-// font-size: 21px;
-// margin-bottom: -112px;
-// position: absolute;
-
-// }
-
-        
     
 
     .banner{
@@ -1387,7 +1349,7 @@ ul{
 }
 /* Nav menu */
 .nav{
-    width: 100%;
+    width: 93%;
     height: 100%;
     position: fixed;
     background-color: var(--black);
@@ -1411,7 +1373,7 @@ ul{
     cursor: pointer;
     float: right;
     padding: 14px 6px;
-    background-color: #000;
+    background-color: #CD7E50;
     margin-top: 22px;
     margin-right: 19px;
 }/* Style label tag */
