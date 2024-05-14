@@ -289,7 +289,7 @@ margin-left: 25px;
     img{
 
         margin-left: 150px;
-        width: 85%;
+        width: 75%;
         // margin-top: -20px;
     }
 
@@ -539,7 +539,7 @@ margin-top: 70px;
 // Start Below Footer //
 
    .Nowalls{
-    background-image: url("img/Group\ 9.png");
+    background-image: url("img/Group\ 9.png" );
     background-size: cover;
     height: 50vh;
     background-repeat: no-repeat;
@@ -600,10 +600,10 @@ h2{
 
 // Start Footer //
 
-.loggo{
+.log{
     font-family: "font", BalooBhaijaan ;
    
-    .image{
+    .img45{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -717,6 +717,7 @@ font-size: 15px;
       
     }
 
+   
 
     .services{
 
@@ -730,7 +731,7 @@ font-size: 15px;
         h2{
             font-size: 20px;
             margin-left: 26px;
-            margin-top: -18px;
+            margin-top: 3px;
     }
 .objects{
     display: flex;
@@ -746,6 +747,7 @@ font-size: 15px;
     h5{
         
         font-size: 15px;
+        margin-top: -34px;
     }
 
     .card-text{
@@ -758,9 +760,10 @@ font-size: 15px;
 
     .card{
 
-        margin-top: -28px;
+        margin-top: -11px;
         width: 20rem;
         margin-left: 25px;
+        height: 60vh;
     }
 
     
@@ -779,16 +782,20 @@ font-size: 15px;
 
 
 .subscribe{
+        padding: 0px;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom:20px ;
 
     display: flex;
     flex-direction: column;
 
 
     img{
-    width: 170%;
-    height: 5q  q1  0vh;
-    margin-top: -3px;
-    margin-left: 10px;
+    width: 104%;
+  
+    // margin-top: -3px;
+    margin-left: -32px;
     object-fit: contain;
 
     }
@@ -809,39 +816,58 @@ font-size: 15px;
 
 .contact{
 
-    img{
-       display: none;
+    // img{
+    //    display: none;
+    // }
+
+.row{
+
+    --bs-gutter-x: 0;
+    padding-right: 0;
+    padding-left:0 ;
+}
+
+    .get{
+
+        h2{
+            font-size:25px ; 
+            margin-right: 48px;
+         }
+     
+         p{
+             font-size: 10px;
+             margin-right: 53px;
+         }
+
     }
 
-    h2{
-       font-size:25px ; 
-       margin-right: 48px;
-    }
-
-    p{
-        font-size: 10px;
-        margin-right: 53px;
-    }
+   
 
     .forms{
         margin-left: -2px;
         width: 85%;
-    }
-    .former{
-        width: 100%;
-        margin-left: 35px;
-    }
 
+
+        .former{
+            width: 100%;
+            margin-left: 35px;
+        }
+    
+
+        .message-box{
+            width: 100%;
+            margin-left:33px ;
+        }
+    
+
+    }
+    
     .button{
         margin-left: 32px;
         width: 86%;
     }
 
-    .message-box{
-        width: 100%;
-        margin-left:33px ;
-    }
-
+   
     .rect76{
         display: none;
     }
@@ -849,12 +875,13 @@ font-size: 15px;
 
 
 .Nowalls{
-
+background-image: none;
+background-color: #0A3140;
 
     height: 40vh;
  img{
-    background-size: cover;
-    background-position: right;  
+    display: none;
+    
  } 
  .samora{
 
@@ -874,12 +901,13 @@ p{
 }
 }
 
-.loggo{
+.log{
 
 
-    image{
+    .img45{
 
-        height: 26vh;
+        height: 11vh;
+        width: 100%;
     }
 
     img{
@@ -1093,7 +1121,7 @@ margin-left: 5px;
         margin-top: -5px;
     }
 }
-.loggo{
+.log{
 
     img{
         margin-bottom: 21px;
@@ -1296,10 +1324,10 @@ p{margin-right: 45px;}
     }
 
 
-    .loggo{
+    .log{
         padding: 0px;
 
-        .image{
+        .img45{
 
             height: 14vh;
         }
@@ -1484,4 +1512,98 @@ ul{
         }
     }
     
+}
+
+
+
+@media only screen and (min-width:1399.98px){
+
+    .banner{
+        .opa{
+
+            margin-top: 10px;
+        }
+
+
+        .grp{
+height: 50vh;
+margin-top: 5px;
+
+        }
+
+        .rect6{
+
+            margin-top: 143px;
+        }
+
+
+        .rect4{
+
+            margin-top: 27px;
+        }
+
+        .single3{
+            margin-top: -1px;
+        }
+
+        .single1{
+            margin-top: -1px;
+        }
+
+        .single{
+            margin-top: -1px;
+        }
+
+        .twin{
+            margin-top: -1px;
+        }
+    }
+
+
+    .bout{
+
+        img{
+
+            width: 76%;
+        }
+
+
+        .hd{
+
+            margin-left: -95px;
+        }
+    }
+
+
+    .contact{
+
+
+        img{
+
+            height: 76vh;
+        }
+    }
+
+    .services{
+
+        .serve{
+
+            margin-left: 21px;
+        }
+
+        .objects{
+
+            .col-md-4{
+
+                width: 31.333333%;
+            }
+        }
+    }
+
+    .Nowalls{
+
+        height: 41vh;
+    }
+
+
 }
