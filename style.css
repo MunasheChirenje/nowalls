@@ -512,19 +512,19 @@ body {
   }
   .subscribe img {
     width: 104%;
-    margin-left: -32px;
+    margin-left: -43px;
     -o-object-fit: contain;
        object-fit: contain;
   }
   .subscribe h2 {
     font-size: 24px;
     margin-bottom: 30px;
-    margin-left: -62px;
+    margin-left: -48px;
   }
   .subscribe .button {
     padding: 15px;
     font-size: 14px;
-    margin-left: -62px;
+    margin-left: -48px;
   }
   .contact .row {
     --bs-gutter-x: 0;
