@@ -52,6 +52,12 @@ body {
   margin-left: -25px;
   color: rgb(0, 62, 84);
 }
+.navigation a:hover {
+  color: #CD7E50;
+}
+.navigation .con:hover {
+  color: #0B394D;
+}
 .navigation .con {
   color: rgb(215, 123, 65);
 }
@@ -248,6 +254,9 @@ body {
   justify-content: space-around;
 }
 
+.carousel-indicators {
+  bottom: -30px;
+}
 .carousel-indicators button {
   height: 15px;
   margin-bottom: -120px;
@@ -855,14 +864,20 @@ body {
     height: 14vh;
   }
 }
-/* Theming */
 /* import font */
 :root {
   --white: #f9f9f9;
   --black: #36383F;
   --gray: #85888C;
-} /* variables*/
-/* Reset */
+}
+
+.menu a .services {
+  background-color: var(--black);
+}
+.menu a .contact {
+  background-color: var(--black);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -871,7 +886,7 @@ body {
 
 body {
   background-color: var(--white);
-  font-family: "font", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -887,14 +902,16 @@ ul {
   position: sticky;
   top: 0;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
 }
 
 /* Logo */
-.logo {
-  display: inline-block;
-  color: var(--white);
-  font-size: 60px;
-  margin-left: 10px;
+.header img {
+  height: 40%;
 }
 
 /* Nav menu */
@@ -904,6 +921,8 @@ ul {
   position: fixed;
   background-color: var(--black);
   overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
 }
 
 .menu a {
@@ -916,27 +935,23 @@ ul {
   background-color: var(--gray);
 }
 
-.nav {
-  max-height: 0;
-  transition: max-height 0.5s ease-out;
-}
-
 /* Menu Icon */
 .hamb {
   cursor: pointer;
-  float: right;
   padding: 14px 6px;
   background-color: #CD7E50;
   margin-top: 22px;
   margin-right: 19px;
-} /* Style label tag */
+}
+
 .hamb-line {
   background: var(--white);
   display: block;
-  height: 2px;
+  height: 1px;
   position: relative;
   width: 24px;
-} /* Style span tag */
+}
+
 .hamb-line::before,
 .hamb-line::after {
   background: var(--white);
@@ -958,7 +973,8 @@ ul {
 
 .side-menu {
   display: none;
-} /* Hide checkbox */
+}
+
 /* Toggle menu icon */
 .side-menu:checked ~ nav {
   max-height: 100%;
@@ -978,6 +994,26 @@ ul {
   top: 0;
 }
 
+@media (max-width: 768px) {
+  .nav {
+    top: 60px;
+    right: 0;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu li {
+    margin: 15px 0;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    display: none;
+  }
+}
 @media only screen and (min-width: 993px) and (max-width: 1024px) {
   .banner .rect3 {
     margin-top: 8px;
